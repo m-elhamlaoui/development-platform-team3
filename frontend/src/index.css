@@ -1,0 +1,83 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.p-d-flex {
+  display: flex;
+}
+
+.p-jc-center {
+  justify-content: center;
+}
+
+.p-flex-column {
+  flex-direction: column;
+}
+
+.p-align-items-center {
+  align-items: center;
+}
+
+.p-field {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-shadow-3 {
+  margin-bottom: 2rem;
+}
+
+.menubar-custom {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.nav-link {
+  margin-right: 1rem;
+}
+
+.menubar-end {
+  margin-left: auto; /* Pushes the end content to the right */
+}
+
+.menubar-item {
+  margin-right: 0.5rem; /* Adjust spacing between items */
+}
+
+.form-container {
+  width: 25rem;
+  margin-bottom: 2rem;
+}
+
+.table-container {
+  width: 50rem;
+}
+
+@media screen and (max-width: 768px) {
+  .form-container, .table-container {
+    width: 100%;
+  }
+}
+
+.menubar {
+  display: flex;
+  align-items: center;
+}
+
+.menubar .p-menubar {
+  flex-grow: 1;
+}
+
+.menubar-end {
+  display: flex;
+  align-items: center;
+}
+
+.menubar-end .menubar-item {
+  margin-right: 0.5rem;
+}
+
+.pi-sign-out {
+  font-size: 1.2rem;
+}
